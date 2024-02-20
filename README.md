@@ -9,7 +9,7 @@ Infinity Hope is a foundational work of code developed by our dedicated team. Th
 ```
 https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
 ```
-- [MemoryPack]([https://github.com/Cysharp/MemoryPack](https://github.com/MessagePack-CSharp/MessagePack-CSharp/releases))
+- [MemoryPack](https://github.com/MessagePack-CSharp/MessagePack-CSharp/releases)
 - [Sirenix Odin - Inspector and Serializer](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041)
 - [Anti-Cheat Toolkit](https://assetstore.unity.com/packages/tools/utilities/anti-cheat-toolkit-2023-202695)
 
