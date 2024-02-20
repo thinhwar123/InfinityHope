@@ -1,5 +1,5 @@
 
-# ![Icon](https://cdn-icons-png.flaticon.com/512/4841/4841366.png)
+# ![Icon](https://cdn-icons-png.flaticon.com/512/4841/4841366.png){width=100 height=100}
 # 🎲 Infinity Hope 
 
 Infinity Hope is a foundational work of code developed by our dedicated team. This project provides a unified base for our future game development projects, ensuring consistency, efficiency, and quality across all our endeavors.
