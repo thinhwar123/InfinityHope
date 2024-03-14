@@ -1,0 +1,12 @@
+{
+  "name": "com.ih.ui",
+  "version": "1.0.0",
+  "displayName": "InfinityUI",
+  "description": "Library for transition animation and UI management in Unity's uGUI.",
+  "unity": "2019.1",
+  "author": {
+    "name": "thinhwar123",
+    "email": "thinhwar123@gmail.com",
+    "url": "https://github.com/thinhwar123"
+  }
+}

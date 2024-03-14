@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using DG.Tweening;
+using UnityEngine.UI;
 
 public static class DelegateCache
 {
@@ -37,5 +39,11 @@ public static class DelegateCache
     public static void ClearAllDelegate(this object instance)
     {
         Cache.Remove(instance);
+    }
+
+    public static void Test(Image image)
+    {
+        image.DOFade(1,1);
+
     }
 }
