@@ -2,7 +2,7 @@
     "name": "IH.UI",
     "rootNamespace": "",
     "references": [
-        "GUID:636596da6e15c7a45989a1653a4318b6"
+        "DOTween.Modules"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
