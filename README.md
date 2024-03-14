@@ -19,7 +19,7 @@ https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
 2. Select the **Add package from git URL** option from the `+` dropdown
 3. Enter this git url:
 
-### GUI
+### InfinityUI
 ```
 https://github.com/thinhwar123/InfinityHope.git?path=Packages/IH.IU
 ```
