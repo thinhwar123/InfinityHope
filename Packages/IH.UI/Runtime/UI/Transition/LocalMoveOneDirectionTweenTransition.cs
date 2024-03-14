@@ -12,12 +12,12 @@ namespace HI.UI.Transitions
             Z,
         }
 
-        [field: SerializeField] public Transform Owner { get; private set; }
-        [field: SerializeField] public TweenConfig Config { get; private set; }
-        [field: SerializeField] public float MoveValue { get; private set; }
-        [field: SerializeField] public float Duration { get; private set; }
-        [field: SerializeField] public float Delay { get; private set; }
-        [field: SerializeField] public Ease Ease { get; private set; }
+        [field: SerializeField] public Transform Owner { get; set; }
+        [field: SerializeField] public TweenConfig Config { get; set; }
+        [field: SerializeField] public float MoveValue { get; set; }
+        [field: SerializeField] public float Duration { get; set; }
+        [field: SerializeField] public float Delay { get; set; }
+        [field: SerializeField] public Ease Ease { get; set; }
 
         private Vector3 StartPosition { get; set; }
         private Vector3 EndPosition { get; set; }

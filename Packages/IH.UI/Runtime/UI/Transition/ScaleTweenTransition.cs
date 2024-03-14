@@ -8,11 +8,11 @@ namespace HI.UI.Transitions
 {
     public class ScaleTweenTransition : TweenTransition
     {
-        [field: SerializeField] public Transform Owner { get; private set; }
-        [field: SerializeField] public Vector3 ScaleValue { get; private set; }
-        [field: SerializeField] public float Duration { get; private set; }
-        [field: SerializeField] public float Delay { get; private set; }
-        [field: SerializeField] public Ease Ease { get; private set; }
+        [field: SerializeField] public Transform Owner { get; set; }
+        [field: SerializeField] public Vector3 ScaleValue { get; set; }
+        [field: SerializeField] public float Duration { get; set; }
+        [field: SerializeField] public float Delay { get; set; }
+        [field: SerializeField] public Ease Ease { get; set; }
 
         private Vector3 StartScale { get; set; }
         private Vector3 EndScale { get; set; }

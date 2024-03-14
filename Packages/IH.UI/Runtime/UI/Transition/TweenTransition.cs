@@ -8,13 +8,13 @@ namespace HI.UI.Transitions
     public class TweenTransition : MonoBehaviour
     {
         [field: SerializeField, HorizontalGroup("Attribute"), HideLabel]
-        public TargetValueType TargetValueType { get; private set; }
+        public TargetValueType TargetValueType { get; set; }
 
         [field: SerializeField, HorizontalGroup("Attribute"), HideLabel]
-        public TransitionType TransitionType { get; private set; }
+        public TransitionType TransitionType { get; set; }
 
         [field: SerializeField, HorizontalGroup("Attribute"), HideLabel]
-        public TransitionConfig TransitionConfig { get; private set; }
+        public TransitionConfig TransitionConfig { get; set; }
 
         public Tween MainTween { get; set; }
 

@@ -5,11 +5,11 @@ namespace HI.UI.Transitions
 {
     public class LocalMoveTweenTransition : TweenTransition
     {
-        [field: SerializeField] public Transform Owner { get; private set; }
-        [field: SerializeField] public Vector3 MoveValue { get; private set; }
-        [field: SerializeField] public float Duration { get; private set; }
-        [field: SerializeField] public float Delay { get; private set; }
-        [field: SerializeField] public Ease Ease { get; private set; }
+        [field: SerializeField] public Transform Owner { get; set; }
+        [field: SerializeField] public Vector3 MoveValue { get; set; }
+        [field: SerializeField] public float Duration { get; set; }
+        [field: SerializeField] public float Delay { get; set; }
+        [field: SerializeField] public Ease Ease { get; set; }
 
         private Vector3 StartPosition { get; set; }
         private Vector3 EndPosition { get; set; }

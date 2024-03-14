@@ -8,10 +8,10 @@ namespace HI.UI.Transitions
 {
     public class UIImageTweenTransition : TweenTransition
     {
-        [field: SerializeField] public Image MainImage { get; private set; }
-        [field: SerializeField] public List<Sprite> SpriteList { get; private set; }
-        [field: SerializeField] public float Duration { get; private set; }
-        [field: SerializeField] public float Delay { get; private set; }
+        [field: SerializeField] public Image MainImage { get; set; }
+        [field: SerializeField] public List<Sprite> SpriteList { get; set; }
+        [field: SerializeField] public float Duration { get; set; }
+        [field: SerializeField] public float Delay { get; set; }
         private int CurrentIndex { get; set; }
         private float Progress { get; set; }
         private DOGetter<float> DoGetterProgress { get; set; }

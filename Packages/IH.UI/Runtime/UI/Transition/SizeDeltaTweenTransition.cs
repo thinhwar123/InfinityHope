@@ -5,11 +5,11 @@ namespace HI.UI.Transitions
 {
     public class SizeDeltaTweenTransition : TweenTransition
     {
-        [field: SerializeField] public RectTransform Owner { get; private set; }
-        [field: SerializeField] public Vector2 Vector2Value { get; private set; }
-        [field: SerializeField] public float Duration { get; private set; }
-        [field: SerializeField] public float Delay { get; private set; }
-        [field: SerializeField] public Ease Ease { get; private set; }
+        [field: SerializeField] public RectTransform Owner { get; set; }
+        [field: SerializeField] public Vector2 Vector2Value { get; set; }
+        [field: SerializeField] public float Duration { get; set; }
+        [field: SerializeField] public float Delay { get; set; }
+        [field: SerializeField] public Ease Ease { get; set; }
         private Vector2 StartSizeDelta { get; set; }
         private Vector2 EndSizeDelta { get; set; }
 

@@ -5,11 +5,11 @@ namespace HI.UI.Transitions
 {
     public class FadeTweenTransition : TweenTransition
     {
-        [field: SerializeField] public CanvasGroup Owner { get; private set; }
-        [field: SerializeField] public float AlphaValue { get; private set; }
-        [field: SerializeField] public float Duration { get; private set; }
-        [field: SerializeField] public float Delay { get; private set; }
-        [field: SerializeField] public Ease Ease { get; private set; }
+        [field: SerializeField] public CanvasGroup Owner { get; set; }
+        [field: SerializeField] public float AlphaValue { get; set; }
+        [field: SerializeField] public float Duration { get; set; }
+        [field: SerializeField] public float Delay { get; set; }
+        [field: SerializeField] public Ease Ease { get; set; }
 
         private float StartValue { get; set; }
         private float EndValue { get; set; }
