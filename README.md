@@ -21,5 +21,5 @@ https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask
 
 ### InfinityUI
 ```
-https://github.com/thinhwar123/InfinityHope.git?path=Packages/IH.IU
+https://github.com/thinhwar123/InfinityHope.git?path=Packages/IH.UI
 ```
